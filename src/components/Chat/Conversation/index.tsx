@@ -9,7 +9,7 @@ const Conversation = ({
 }) => {
   return (
     <div
-      className='h-full min-h-[500px] w-full py-[20px] overflow-auto'
+      className='h-full min-h-[1px] w-full py-[20px] overflow-auto px-[15px]'
     >
       <div
         className='w-full max-w-4xl mx-auto'

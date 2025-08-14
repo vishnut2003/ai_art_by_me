@@ -39,7 +39,7 @@ const InputField = ({
 
     return (
         <div
-            className='space-y-[20px] pb-[20px] w-full max-w-4xl mx-auto pt-[15px]'
+            className='space-y-[20px] pb-[20px] w-full max-w-4xl mx-auto pt-[15px] px-[15px]'
         >
             <form
                 className='py-[10px] pr-[15px] pl-[25px] rounded-[30px] bg-dark-2 flex items-center gap-3'
@@ -54,7 +54,7 @@ const InputField = ({
                     }}
                 />
                 <button
-                    className='cursor-pointer w-[38px] h-[35px] rounded-full bg-white text-dark flex items-center justify-center'
+                    className='cursor-pointer min-w-[35px] h-[35px] rounded-full bg-white text-dark flex items-center justify-center'
                 >
                     {
                         isPending ?
